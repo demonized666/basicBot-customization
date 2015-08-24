@@ -117,7 +117,7 @@
     localStorage.setItem("basicBotsettings", JSON.stringify({
       botName: "basicBot",
       language: "english",
-      chatLink: "https://github.com/demonized666/basicBot-customization/blob/master/lang/en.json",
+      chatLink: "https://rawgit.com/demonized666/basicBot-customization/master/lang/en.json",
       scriptLink: "https://rawgit.com/demonized666/basicBot-customization/master/lang/en.json",
       roomLock: false, // Requires an extension to re-load the script
       startupCap: 1, // 1-200
@@ -181,6 +181,6 @@
     }));
 
     // Start the bot and extend it when it has loaded.
-    $.getScript("https://rawgit.com/Yemasthui/basicBot/master/basicBot.js", extend);
+    $.getScript("https://rawgit.com/demonized666/basicBot-customization/master/lang/en.json", extend);
 
 }).call(this);
